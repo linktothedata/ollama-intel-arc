@@ -20,7 +20,7 @@ on:
         default: 'main'
   schedule:
     # Sundays 07:00 UTC - an hour after the llama-sycl build
-    - cron: '0 7 * * 0'
+    - cron: '0 0 * * *'
 
 env:
   REGISTRY: ghcr.io
